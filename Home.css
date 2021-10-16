@@ -1,0 +1,24 @@
+.home{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home__image{
+    width: 100%;
+    z-index:-1;
+    margin-bottom: -150px;
+    mask-image:linear-gradient(to bottom,rgb(167, 164, 164),rgba(0,0,0,0));
+}
+.title{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
